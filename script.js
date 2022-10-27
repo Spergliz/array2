@@ -23,7 +23,7 @@ let arrry4 = [];
 for (let k = 0; k < 300; k++) {
   arrry4.push(Math.random() * 40);
 }
-console.log(arrry4);
+//console.log(arrry4);
 
 let array5 = [];
 for (let z = 20; z < 804; z += 4) {
@@ -32,7 +32,7 @@ for (let z = 20; z < 804; z += 4) {
 console.log(array5);
 
 let array6 = [];
-for (let x = 20; x < 100; x -= 2) {
+for (let x = 200; x < 100; x) {
     array6.push(x);
 }
 console.log(array6)
