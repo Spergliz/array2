@@ -17,13 +17,13 @@ let array2 = [];
 for (let q = 0; q < 5000; q++) {
   array2.push(Math.random() * 100);
 }
-//console.log (array2)
+console.log(array2);
 
 let arrry4 = [];
 for (let k = 0; k < 300; k++) {
   arrry4.push(Math.random() * 40);
 }
-//console.log(arrry4);
+console.log(arrry4);
 
 let array5 = [];
 for (let z = 20; z < 804; z += 4) {
@@ -31,8 +31,26 @@ for (let z = 20; z < 804; z += 4) {
 }
 console.log(array5);
 
-let array6 = [];
-for (let x = 200; x < 100; x) {
-    array6.push(x);
+let arra = [];
+for (let x = 100; x >= 10; x -= 2) {
+  arra.push(x);
 }
-console.log(array6)
+console.log(arra);
+
+let colorsStr = "red,orange,yellow,green,blue,indigo,violet";
+let array7 = colorsStr.split(",");
+console.log(array7);
+
+let citiesStr = "Edmonton;Calgary;Vancouver;Saskatoon;Winnipeg";
+let array8 = citiesStr.split(";");
+console.log(array8);
+
+let array9 = [];
+while (true) {
+  let A = prompt(`enter name or done to end`);
+  if (A === "done") {
+    break;
+  } else {
+    array9.push(A);
+  }
+}
